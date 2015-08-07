@@ -1,10 +1,10 @@
 [package]
-name = "rustlex"
+name = "rumblebars-rustlex"
 version = "0.3.1"
 authors = ["Leo Testard <leo.testard@gmail.com>", "Mathieu Poumeyrol <kali@zoy.org>"]
-description = "Lexical analysers generator for Rust, written in Rust"
-homepage = "https://github.com/LeoTestard/rustlex"
-repository = "https://github.com/LeoTestard/rustlex"
+description = "Lexical analysers generator for Rust, written in Rust (crate dedicated to rumblebars, divergences written by Nicolas Cherel)"
+homepage = "https://github.com/nicolas-cherel/rustlex"
+repository = "https://github.com/nicolas-cherel/rustlex"
 readme = "README.md"
 keywords = [ "lexer", "lexical", "analyser", "generator" ]
 license = "MIT"
