@@ -1,10 +1,10 @@
 [package]
-name = "rustlex_codegen"
+name = "rumblebars-rustlex_codegen"
 version = "0.3.1"
 authors = ["Leo Testard <leo.testard@gmail.com>"]
 description = "Syntex extension for RustLex"
-homepage = "https://github.com/LeoTestard/rustlex"
-repository = "https://github.com/LeoTestard/rustlex"
+homepage = "https://crates.io/crates/rumblebars-rustlex"
+repository = "https://crates.io/crates/rumblebars-rustlex"
 keywords = [ "lexer", "lexical", "analyser", "generator" ]
 license = "MIT"
 build = "build.rs"
