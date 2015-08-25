@@ -1,16 +1,16 @@
 [package]
-name = "rumblebars-rustlex_codegen"
+name = "rumblebars_rustlex_codegen"
 version = "0.3.1"
 authors = ["Leo Testard <leo.testard@gmail.com>"]
 description = "Syntex extension for RustLex"
-homepage = "https://crates.io/crates/rumblebars-rustlex"
-repository = "https://crates.io/crates/rumblebars-rustlex"
+homepage = "https://crates.io/crates/rumblebars_rustlex"
+repository = "https://crates.io/crates/rumblebars_rustlex"
 keywords = [ "lexer", "lexical", "analyser", "generator" ]
 license = "MIT"
 build = "build.rs"
 
 [lib]
-name = "rustlex_codegen"
+name = "rumblebars_rustlex_codegen"
 
 [features]
 with-syntex = ["quasi/with-syntex", "quasi_codegen/with-syntex", "syntex", "syntex_syntax"]

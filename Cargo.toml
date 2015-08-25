@@ -1,6 +1,6 @@
 [package]
-name = "rumblebars-rustlex"
-version = "0.3.2"
+name = "rumblebars_rustlex"
+version = "0.3.1"
 authors = ["Leo Testard <leo.testard@gmail.com>", "Mathieu Poumeyrol <kali@zoy.org>"]
 description = "Lexical analysers generator for Rust, written in Rust (crate dedicated to rumblebars, divergences written by Nicolas Cherel)"
 homepage = "https://github.com/nicolas-cherel/rustlex"
@@ -10,8 +10,8 @@ keywords = [ "lexer", "lexical", "analyser", "generator" ]
 license = "MIT"
 
 [lib]
-name = "rustlex"
+name = "rumblebars_rustlex"
 crate-type = ["dylib"]
 
 [dependencies]
-rumblebars-rustlex_codegen = { version = "*", path = "codegen" }
+rumblebars_rustlex_codegen = { version = "*", path = "codegen" }
