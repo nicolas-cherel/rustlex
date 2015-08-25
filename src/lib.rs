@@ -1,6 +1,6 @@
 #![feature(plugin_registrar, rustc_private)]
 
-extern crate rumblebars_rustlex_codegen as rustlex_codegen;
+extern crate nc_rustlex_codegen as rustlex_codegen;
 extern crate rustc;
 
 pub use rustlex_codegen::rt;
